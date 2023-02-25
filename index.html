@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Europe Countdown</title>
+    <link rel="icon" type="image/png" href="images/plane.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="weather.js"></script>
+  </head>
+  <body>
+    <button id="night-mode-button">
+      <span class="material-symbols-outlined">
+        light_mode
+      </span>
+    </button>
+    <div id="image-container">
+      <div class="image" data-day="images/amsterdamday.jpg" data-night="images/amsterdamnight.jpg">
+        <div class="city-name">Amsterdam</div>
+      </div>
+      <div class="image" data-day="images/brusselsday.jpg" data-night="images/brusselsnight.jpg">
+        <div class="city-name">Brussels</div>
+      </div>
+      <div class="image" data-day="images/parisday.jpg" data-night="images/parisnight.jpg">
+        <div class="city-name">Paris</div>
+      </div>
+    </div>
+    <div id="countdown"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
