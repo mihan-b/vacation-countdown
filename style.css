@@ -75,12 +75,30 @@ body {
   z-index: 1;
 }
 
+/* Calendar button */
+#cal-button {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#cal-button:hover .material-symbols-outlined {
+  color: dodgerblue;
+  transition: color 0.2s ease-in-out;
+}
+
+
 /* Night mode button */
 #night-mode-button {
   position: absolute;
   z-index: 2;
   top: 10px;
-  right: 10px;
+  right: 50px;
   background: none;
   border: none;
   outline: none;
